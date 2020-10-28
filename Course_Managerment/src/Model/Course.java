@@ -13,6 +13,7 @@ public class Course {
     private String code ; 
     private String name ; 
     private int credit ;
+    private int option;
 
     public Course() {
     }
