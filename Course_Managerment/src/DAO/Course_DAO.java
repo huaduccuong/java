@@ -14,7 +14,8 @@ import java.util.regex.Pattern;
  * @author Admin
  */
 public class Course_DAO {
-
+   private String cuongdeptrai; 
+   private String vananhxaugai;
     private Vector<Course> courses;
 
     public Course_DAO(Vector<Course> vector) {
